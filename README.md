@@ -1,6 +1,6 @@
-# To-Do REST API
+# To-Do Backend App
 
-This project is a simple **To-Do List REST API** built using the [NestJS](https://nestjs.com/) framework. The API allows users to manage their tasks by creating, reading, updating, and deleting (CRUD) to-do items.
+This project is a simple **To-Do Backend App** built using the [NestJS](https://nestjs.com/) framework. The API allows users to manage their tasks by creating, reading, updating, and deleting (CRUD) to-do items.
 
 ## Table of Contents
 
@@ -44,8 +44,8 @@ Make sure you have the following installed:
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/todo-api-nestjs.git
-cd todo-api-nestjs
+git clone https://github.com/hohlovkiril/to-do-backend-app
+cd to-do-backend-app
 ```
 
 2. Install dependencies:
@@ -98,8 +98,8 @@ npm run start:prod
 ```js
 {
   id: 1,
-  content: "Base task content"
-  status: 0
+  content: "Base task content",
+  status: 0,
   list: 1
 }
 ```
