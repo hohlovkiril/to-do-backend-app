@@ -8,9 +8,7 @@ This project is a simple **To-Do Backend App** built using the [NestJS](https://
 - [Technologies](#technologies)
 - [Installation](#installation)
 - [Running the Application](#running-the-application)
-- [API Endpoints](#api-endpoints)
 - [Environment Variables](#environment-variables)
-- [License](#license)
 
 ## Features
 
