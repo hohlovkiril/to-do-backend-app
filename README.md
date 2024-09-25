@@ -90,14 +90,3 @@ To build and run the application in production mode:
 npm run build
 npm run start:prod
 ```
-
-### Example Task object
-
-```js
-{
-  id: 1,
-  content: "Base task content",
-  status: 0,
-  list: 1
-}
-```
