@@ -13,9 +13,7 @@ export class TaskController {
   }
 
   @Get('/by-list/:listId')
-  async findAll(
-    @Param('listId') listId: number
-  ) {
+  async findAll(@Param('listId') listId: number) {
     return await this.taskService.findAll({ listId });
   }
 
