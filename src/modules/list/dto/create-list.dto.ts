@@ -1,4 +1,11 @@
+import { ApiProperty } from '@nestjs/swagger';
+
 export class CreateListDto {
-	readonly icon?: string;
-	readonly title: string;
+  @ApiProperty({})
+  readonly icon?: string;
+
+  @ApiProperty({
+    description: 'The list title',
+  })
+  readonly title: string;
 }
